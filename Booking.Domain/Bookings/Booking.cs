@@ -2,6 +2,7 @@ using System;
 using Booking.Domain.Abstractions;
 using Booking.Domain.Apartments;
 using Booking.Domain.Bookings.Events;
+using Booking.Domain.Shared;
 
 namespace Booking.Domain.Bookings;
 

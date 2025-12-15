@@ -1,4 +1,5 @@
 using Booking.Domain.Apartments;
+using Booking.Domain.Shared;
 
 namespace Booking.Domain.Bookings;
 
