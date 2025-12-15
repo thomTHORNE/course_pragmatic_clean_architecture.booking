@@ -1,8 +1,8 @@
 using System;
+using Booking.Domain.Apartments;
 
-namespace Booking.Domain.Users;
 
 public interface IApartmentRepository
 {
-    Task<User?> GetByIdAsync(Guid id, CancellationToken cancellationToken = default);
+    Task<Apartment?> GetByIdAsync(Guid id, CancellationToken cancellationToken = default);
 }
