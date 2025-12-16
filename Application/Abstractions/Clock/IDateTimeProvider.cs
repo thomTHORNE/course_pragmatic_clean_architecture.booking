@@ -1,6 +1,6 @@
 using System;
 
-namespace Application.Abstractions.Clock;
+namespace Booking.Application.Abstractions.Clock;
 
 public interface IDateTimeProvider
 {

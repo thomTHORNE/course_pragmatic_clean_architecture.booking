@@ -2,7 +2,7 @@ using System;
 using Booking.Domain.Abstractions;
 using MediatR;
 
-namespace Application.Abstractions.Messaging;
+namespace Booking.Application.Abstractions.Messaging;
 
 public interface ICommandHandler<TCommand> : IRequestHandler<TCommand, Result> where TCommand : ICommand
 {

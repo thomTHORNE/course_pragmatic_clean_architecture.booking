@@ -1,13 +1,13 @@
 using System;
-using Application.Abstractions.Clock;
-using Application.Abstractions.Messaging;
+using Booking.Application.Abstractions.Clock;
+using Booking.Application.Abstractions.Messaging;
 using Booking.Domain.Abstractions;
 using Booking.Domain.Apartments;
 using Booking.Domain.Bookings;
 using Booking.Domain.Users;
 using BookingEntity = Booking.Domain.Bookings.Booking;
 
-namespace Application.Bookings.ReserveBooking;
+namespace Booking.Application.Bookings.ReserveBooking;
 
 internal sealed class ReserveBookingCommandHandler : ICommandHandler<ReserveBookingCommand, Guid>
 {

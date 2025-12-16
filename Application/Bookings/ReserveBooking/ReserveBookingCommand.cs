@@ -1,6 +1,6 @@
-using Application.Abstractions.Messaging;
+using Booking.Application.Abstractions.Messaging;
 
-namespace Application.Bookings.ReserveBooking;
+namespace Booking.Application.Bookings.ReserveBooking;
 
 public record ReserveBookingCommand(
     Guid ApartmentId,
