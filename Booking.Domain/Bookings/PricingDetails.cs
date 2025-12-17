@@ -1,7 +1,7 @@
 using Booking.Domain.Apartments;
-using Booking.Domain.Shared;
+using Domain.Shared;
 
-namespace Booking.Domain.Bookings;
+namespace Domain.Bookings;
 
 public record PricingDetails(
     Money PriceForPeriod,

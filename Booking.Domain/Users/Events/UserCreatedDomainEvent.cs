@@ -1,5 +1,5 @@
-using Booking.Domain.Abstractions;
+using Domain.Abstractions;
 
-namespace Booking.Domain.Users.Events;
+namespace Domain.Users.Events;
 
 public sealed record UserCreatedDomainEvent(Guid UserId): IDomainEvent;

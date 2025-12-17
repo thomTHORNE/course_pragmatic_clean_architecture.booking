@@ -1,11 +1,11 @@
 using System;
-using Booking.Application.Abstractions.Email;
-using Booking.Domain.Bookings;
-using Booking.Domain.Bookings.Events;
-using Booking.Domain.Users;
+using Application.Abstractions.Email;
+using Domain.Bookings;
+using Domain.Bookings.Events;
+using Domain.Users;
 using MediatR;
 
-namespace Booking.Application.Bookings.ReserveBooking;
+namespace Application.Bookings.ReserveBooking;
 
 // Upon reserving a booking, the user must receive an email notifying
 // them of successful booking reservation.

@@ -1,7 +1,7 @@
 using System;
 using System.Diagnostics.CodeAnalysis;
 
-namespace Booking.Domain.Abstractions;
+namespace Domain.Abstractions;
 
 public class Result
 {

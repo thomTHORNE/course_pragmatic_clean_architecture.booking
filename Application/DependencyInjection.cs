@@ -1,5 +1,5 @@
 using System;
-using Booking.Domain.Bookings;
+using Domain.Bookings;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace Application;

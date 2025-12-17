@@ -1,4 +1,4 @@
-namespace Booking.Domain.Abstractions;
+namespace Domain.Abstractions;
 
 public record Error(string Code, string Name)
 {

@@ -1,6 +1,6 @@
 using System;
 
-namespace Booking.Domain.Abstractions;
+namespace Domain.Abstractions;
 
 public interface IUnitOfWork
 {

@@ -1,5 +1,5 @@
-using Booking.Domain.Abstractions;
-using Booking.Domain.Shared;
+using Domain.Abstractions;
+using Domain.Shared;
 
 namespace Booking.Domain.Apartments;
 

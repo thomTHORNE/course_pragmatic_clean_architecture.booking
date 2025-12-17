@@ -1,6 +1,6 @@
 using System;
 
-namespace Booking.Domain.Users;
+namespace Domain.Users;
 
 public interface IUserRepository
 {

@@ -1,10 +1,10 @@
 using System;
-using Booking.Domain.Abstractions;
+using Domain.Abstractions;
 using Booking.Domain.Apartments;
-using Booking.Domain.Bookings.Events;
-using Booking.Domain.Shared;
+using Domain.Bookings.Events;
+using Domain.Shared;
 
-namespace Booking.Domain.Bookings;
+namespace Domain.Bookings;
 
 public class Booking : Entity
 {

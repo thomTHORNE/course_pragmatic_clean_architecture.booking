@@ -1,6 +1,6 @@
-﻿using Booking.Domain.Abstractions;
+﻿using Domain.Abstractions;
 
-namespace Booking.Domain.Users;
+namespace Domain.Users;
 
 public static class UserErrors
 {

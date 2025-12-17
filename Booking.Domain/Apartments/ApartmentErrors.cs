@@ -1,4 +1,4 @@
-﻿using Booking.Domain.Abstractions;
+﻿using Domain.Abstractions;
 
 namespace Booking.Domain.Apartments;
 

@@ -1,7 +1,7 @@
 using System;
-using Booking.Domain.Abstractions;
+using Domain.Abstractions;
 
-namespace Booking.Domain.Bookings;
+namespace Domain.Bookings;
 
 public class BookingErrors
 {

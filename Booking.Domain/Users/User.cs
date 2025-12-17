@@ -1,8 +1,8 @@
 using System;
-using Booking.Domain.Abstractions;
-using Booking.Domain.Users.Events;
+using Domain.Abstractions;
+using Domain.Users.Events;
 
-namespace Booking.Domain.Users;
+namespace Domain.Users;
 
 public sealed class User : Entity
 {

@@ -1,4 +1,4 @@
-namespace Booking.Domain.Bookings;
+namespace Domain.Bookings;
 
 public record DateRange
 {

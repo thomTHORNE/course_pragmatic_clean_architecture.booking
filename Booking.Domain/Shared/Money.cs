@@ -1,4 +1,4 @@
-namespace Booking.Domain.Shared;
+namespace Domain.Shared;
 
 public record Money(decimal Amount, Currency Currency)
 {
