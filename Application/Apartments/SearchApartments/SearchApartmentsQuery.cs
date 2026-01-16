@@ -6,3 +6,4 @@ public record class SearchApartmentsQuery(
     DateOnly StartDate,
     DateOnly EndDate
 ) : IQuery<IReadOnlyList<ApartmentResponse>>
+{ }
