@@ -1,4 +1,4 @@
-namespace Booking.Domain.Apartments;
+namespace Domain.Apartments;
 
 public enum Amenity
 {

@@ -2,7 +2,7 @@ using System;
 using Application.Abstractions.Clock;
 using Application.Abstractions.Messaging;
 using Domain.Abstractions;
-using Booking.Domain.Apartments;
+using Domain.Apartments;
 using Domain.Bookings;
 using Domain.Users;
 using BookingEntity = Domain.Bookings.Booking;

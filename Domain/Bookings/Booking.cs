@@ -1,6 +1,6 @@
 using System;
 using Domain.Abstractions;
-using Booking.Domain.Apartments;
+using Domain.Apartments;
 using Domain.Bookings.Events;
 using Domain.Shared;
 

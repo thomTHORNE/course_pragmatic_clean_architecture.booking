@@ -1,5 +1,5 @@
 using System;
-using Booking.Domain.Apartments;
+using Domain.Apartments;
 using Domain.Shared;
 
 namespace Domain.Bookings;

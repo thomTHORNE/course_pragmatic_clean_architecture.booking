@@ -1,7 +1,7 @@
 using Domain.Abstractions;
 using Domain.Shared;
 
-namespace Booking.Domain.Apartments;
+namespace Domain.Apartments;
 
 public sealed class Apartment : Entity
 {

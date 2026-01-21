@@ -1,4 +1,4 @@
-﻿using Booking.Domain.Apartments;
+﻿using Domain.Apartments;
 
 namespace Domain.Bookings;
 

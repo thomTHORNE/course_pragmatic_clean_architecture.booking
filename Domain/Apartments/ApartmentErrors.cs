@@ -1,6 +1,6 @@
 ﻿using Domain.Abstractions;
 
-namespace Booking.Domain.Apartments;
+namespace Domain.Apartments;
 
 public static class ApartmentErrors
 {
