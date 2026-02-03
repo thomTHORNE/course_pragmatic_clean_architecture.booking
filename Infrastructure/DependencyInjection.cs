@@ -22,7 +22,7 @@ public static class DependencyInjection
         var connectionString = configuration.GetConnectionString("Database") ?? throw new ArgumentNullException(nameof(configuration));
         services.AddDbContext<ApplicationDbContext>(options =>
         {
-            options.UseNpgsql(connectionString);
+            options.UseNpgsql(connectionString).UseSnakeCaseNamingConvention();
         });
 
         return services;
